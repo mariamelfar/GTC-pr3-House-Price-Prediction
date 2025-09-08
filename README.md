@@ -4,66 +4,66 @@ This repository contains a Jupyter Notebook focused on exploring, cleaning, and 
 
 🔹 Dataset Overview
 
-Original dataset: California Housing Prices (CSV file)
+    Original dataset: California Housing Prices (CSV file)
 
-Includes demographic, geographic, and housing-related features
+    Includes demographic, geographic, and housing-related features
 
-After preprocessing:
+    After preprocessing:
 
-Train shape: (X_train, y_train)
+        Train shape: (X_train, y_train)
 
-Test shape: (X_test, y_test)
+        Test shape: (X_test, y_test)
 
 🔹 Cleaning & Processing Steps
 
-Removed duplicates and handled missing values (total_bedrooms)
+    Removed duplicates and handled missing values (total_bedrooms)
 
-Standardized column formats and data types
+    Standardized column formats and data types
 
-Scaled numerical features with StandardScaler
+    Scaled numerical features with StandardScaler
 
-Split dataset into train (80%) and test (20%)
+    Split dataset into train (80%) and test (20%)
 
 🔹 Feature Engineering
 
-New features created to improve predictive power:
+    New features created to improve predictive power:
 
-total_rooms_per_household – ratio of rooms per household
+    total_rooms_per_household – ratio of rooms per household
 
-population_per_household – household population density
+    population_per_household – household population density
 
 🔹 Modeling & Evaluation
 
-Algorithm: Linear Regression
+    Algorithm: Linear Regression
 
-Metrics:
+    Metrics:
 
-MSE (Mean Squared Error)
+        MSE (Mean Squared Error)
 
-RMSE (Root Mean Squared Error)
+        RMSE (Root Mean Squared Error)
 
-R² Score
+        R² Score
 
-Visualized Actual vs Predicted Prices
+    Visualized Actual vs Predicted Prices
 
 🔹 Tech Stack
 
-Python
+    Python
 
-Pandas, NumPy
+    Pandas, NumPy
 
-Matplotlib, Seaborn
+    Matplotlib, Seaborn
 
-Scikit-learn
+    Scikit-learn
 
-Jupyter Notebook
+    Jupyter Notebook
 
 🔹 Purpose
 
-The processed dataset and trained model are optimized for:
+    The processed dataset and trained model are optimized for:
 
-Exploratory Data Analysis (EDA)
+    Exploratory Data Analysis (EDA)
 
-Housing trend visualization
+    Housing trend visualization
 
-Predictive modeling of house prices
+    Predictive modeling of house prices
